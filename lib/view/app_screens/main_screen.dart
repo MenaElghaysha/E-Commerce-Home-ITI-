@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project1/view/app_screens/profile_screen.dart';
 import 'favourite_screen.dart';
 import 'home_screen.dart';
 import '../../models/product_model.dart';
@@ -34,7 +35,8 @@ class _MyHomePageState extends State<MyHomePage> {
       FavoritesScreen(
         favoriteProducts: favoriteProducts,
       ),
-      Center(child: Text('Account Screen')), // Placeholder for the Account screen
+
+      ProfilePage()
     ];
   }
 
